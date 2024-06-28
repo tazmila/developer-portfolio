@@ -62,3 +62,16 @@ span{
     background-repeat: no-repeat;
     background-position: left;
 }
+#chang-borders{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato); 
+    border-image-slice: 1;
+}
+#chang-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(18, 135, 202), rgb(141, 71, 255));
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+}
